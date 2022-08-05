@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: FuturaEF;
+  src: url("fonts/FuturaEF\ Book\ Regular.otf");
+}
+body {
+  color: #c1b575;
+  font-family: FuturaEF;
+  background-color: #0f0f0f;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* SOCIAL */
+.social {
+  display: flex;
+  gap: 5px;
+  /* margin-bottom: 4px; */
+  align-items: center;
+  margin-bottom: 4px;
+}
+.social a {
+  text-decoration: none;
+}
+.social-facebook {
+  /* background-color: grey;
+  padding-left: 5px;
+  padding-right: 5px; 
+   text-decoration: none; */
+  background-image: url("img/social-facebook-icon.png");
+  background-size: contain;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 147px;
+}
+.social img {
+  width: 20px;
+}
+.social-youtube {
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  background-image: url("img/YouTube_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+.social-reddit {
+  background-image: url("img/reddit-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+.social-twitch {
+  background: url("img/twitchicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+.social-facebook:hover {
+  background-color: rgb(4, 105, 201);
+  transition: 0.5s;
+}
+.social-youtube:hover {
+  background-color: rgb(194, 1, 1);
+  transition: 0.5s;
+}
+.social-reddit:hover {
+  background-color: rgb(255, 102, 0);
+  transition: 0.5s;
+}
+.social-twitch:hover {
+  background-color: purple;
+  transition: 0.5s;
+}
+
+/* NAV */
+.navigationbar {
+  background-color: rgb(61, 4, 4);
+  color: #bb6824;
+  display: flex;
+  height: 64px;
+  width: 1000px;
+  gap: 1px;
+  justify-content: end;
+  align-items: center;
+  border: 1px solid rgb(112, 30, 30);
+}
+
+/* LOGO */
+.navigationbar-logo {
+  background: url(img/wm_navlogo.png);
+  width: 125px;
+  height: 125px;
+}
+.navigationbar-logo:hover {
+  background-position: bottom;
+}
+/* NAV TEXT */
+.navigationbar-createaccount {
+  text-decoration: none;
+  color: #bb6824;
+  line-height: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 80px;
+}
+.navigationbar-createaccount:hover {
+  background-color: #8b4409;
+  color: #44240a;
+  transition: 500ms;
+}
+.navigationbar-download {
+  text-decoration: none;
+  color: #bb6824;
+  line-height: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navigationbar-download:hover {
+  background-color: #8b4409;
+  color: #44240a;
+  transition: 500ms;
+}
+.navigationbar-forum {
+  text-decoration: none;
+  color: #bb6824;
+  line-height: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navigationbar-forum:hover {
+  background-color: #8b4409;
+  color: #44240a;
+  transition: 500ms;
+}
+.navigationbar-information {
+  text-decoration: none;
+  color: #bb6824;
+  line-height: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navigationbar-information:hover {
+  background-color: #8b4409;
+  color: #44240a;
+  transition: 500ms;
+}
+.navigationbar-armory {
+  text-decoration: none;
+  color: #bb6824;
+  line-height: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navigationbar-armory:hover {
+  background-color: #8b4409;
+  color: #44240a;
+  transition: 500ms;
+}
+.navigationbar-login {
+  text-decoration: none;
+  color: #bb6824;
+  line-height: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navigationbar-login:hover {
+  background-color: #8b4409;
+  color: #44240a;
+  transition: 500ms;
+}
+/* MARGIN AT THE RIGHT-SIDE NAV */
+.navigationbar-login {
+  margin-right: 50px;
+}
